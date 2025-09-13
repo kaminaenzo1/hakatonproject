@@ -57,6 +57,8 @@ async def check_menu_buttons(message:types.Message, state:FSMContext):
 
 dp.include_router(rg)
 
+#test qivommiza
+
 async def main():
     await dp.start_polling(bot)
 
